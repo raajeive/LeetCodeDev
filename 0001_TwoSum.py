@@ -5,3 +5,4 @@ class Solution:
             if num in diffDict:
                 return [index, diffDict[num]]
             diffDict[target - num] = index
+            print('hi')
